@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".customer.activity.CustomerActivity">
+    <RelativeLayout
+        android:background="@drawable/wallet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp">
+        <RelativeLayout
+            android:background="@color/main"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp">
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Management"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp" />
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="30dp"
+                android:layout_height="22dp"
+                android:padding="@dimen/_1sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_notifications_active_24" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:id="@+id/add_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Customer"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="@dimen/_13sdp"
+        />
+    <LinearLayout
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Name"
+            android:textSize="@dimen/_13sdp" />
+        <EditText
+            android:id="@+id/ext_name"
+            android:textSize="@dimen/_11sdp"
+            android:hint="Enter Name"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Email"
+            android:textSize="@dimen/_13sdp" />
+        <EditText
+            android:id="@+id/ext_email"
+            android:textSize="@dimen/_11sdp"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Phone"
+            android:textSize="@dimen/_13sdp" />
+        <EditText
+            android:id="@+id/ext_phonenumber"
+            android:inputType="number"
+            android:textSize="@dimen/_11sdp"
+            android:hint="Enter Phone Number"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <TextView
+            android:id="@+id/sumit_from"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/blueroundborder"
+            android:layout_width="@dimen/_130sdp"
+            android:padding="@dimen/_7sdp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Add Customer"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

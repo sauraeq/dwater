@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/mainn"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".store.StorekFragment">
+    <RelativeLayout
+       android:id="@+id/headaer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@color/main">
+
+        <TextView
+            android:id="@+id/hear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@color/main"
+            android:gravity="center"
+            android:text="Cart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+        <ImageView
+            android:id="@+id/backreturncart"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_checkout"
+        android:layout_below="@+id/headaer"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/btn_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/blueroundborder"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="CheckOut"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+
+    <ImageView
+        android:id="@+id/carterror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/norecordfound"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>

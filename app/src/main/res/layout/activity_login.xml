@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".user.LoginActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:background="@drawable/login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp">
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        app:srcCompat="@drawable/customerphoto" />
+
+
+    <LinearLayout
+        android:background="@drawable/loginshape"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/_25sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_8sdp"
+            android:background="@drawable/imageshape"
+            android:src="@drawable/id"></ImageView>
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/txt_username"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Driver ID"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/black"
+            >
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/loginshape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_25sdp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_8sdp"
+            android:background="@drawable/imageshape"
+            android:src="@drawable/locktwo"></ImageView>
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/txt_password"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            >
+
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blueroundborder"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginHorizontal="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15sdp"
+        android:text="Submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

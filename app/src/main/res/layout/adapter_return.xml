@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/totaldata"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#D3F8F8F7"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginHorizontal="@dimen/_15sdp"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="@dimen/_90sdp"
+    android:layout_height="@dimen/_70sdp"
+    android:background="#C2E5EA">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/expense_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@drawable/customerphoto"
+        app:civ_border_width="4dp"
+        app:civ_shadow_radius="@dimen/_8sdp" />
+
+</RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/details_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/blueroundborder"
+                android:gravity="end"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_5sdp"
+                android:text="Details"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+
+
+            <TextView
+                android:id="@+id/cutomer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="lalit mohan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/returnphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cutomer_name"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="123456"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/list_water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 Water Bottles"
+            android:textSize="@dimen/_9sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:id="@+id/returnquanity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="#1865ed"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textSize="@dimen/_15sdp"
+            android:text="30 Bottle Return" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

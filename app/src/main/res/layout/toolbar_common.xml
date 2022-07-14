@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbarSingle"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/main"
+    android:contentInsetStart="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetEnd="0dp"
+    android:contentInsetRight="0dp"
+    android:elevation="3dp"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:layout_collapseMode="pin"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/dp_12"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            />
+
+
+        <TextView
+            android:id="@+id/tvToolbarSingle"
+            style="@style/wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rlRight"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imvRight"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:visibility="visible"
+                />
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/cart_badge"
+                android:minWidth="18dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginEnd="-10dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/textview_background"
+                android:layout_height="wrap_content"
+                android:minHeight="18dp"
+                android:textColor="@color/black"
+                android:text="0"
+                android:textSize="8sp"/>
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/imvRight2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/rlRight"
+            android:visibility="gone"
+             />
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>
+

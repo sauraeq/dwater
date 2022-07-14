@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "860562064540",
+    "firebase_url": "https://alghadeer-bb67f-default-rtdb.firebaseio.com",
+    "project_id": "alghadeer-bb67f",
+    "storage_bucket": "alghadeer-bb67f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860562064540:android:e736cb4a5f34454b1a9959",
+        "android_client_info": {
+          "package_name": "com.water.alghadeer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860562064540-c2g92an0hkb8lftqipbp1985pr6690ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.water.alghadeer",
+            "certificate_hash": "7837777df5cf702e058d08cc592ecabf96e181b8"
+          }
+        },
+        {
+          "client_id": "860562064540-4bkbuegtoqg7ptca55kb1ma5rrcpjp1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjx-fyjO0rNx9Vp9TEn7itw9blJJ0bDYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860562064540-4bkbuegtoqg7ptca55kb1ma5rrcpjp1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860562064540:android:f28e6a950a55df661a9959",
+        "android_client_info": {
+          "package_name": "com.waterdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860562064540-g963dq78hfkcsh1lrdpnmta9pme1jsgh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waterdelivery",
+            "certificate_hash": "e34fcd063b7185790fb05e05f15efb2442acf586"
+          }
+        },
+        {
+          "client_id": "860562064540-v3bh3kcki4ddk68mq2hiimipomkmuan4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waterdelivery",
+            "certificate_hash": "dd9bd91ca5322c546c0b7c03b227ac3d6b2a010f"
+          }
+        },
+        {
+          "client_id": "860562064540-4bkbuegtoqg7ptca55kb1ma5rrcpjp1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjx-fyjO0rNx9Vp9TEn7itw9blJJ0bDYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860562064540-4bkbuegtoqg7ptca55kb1ma5rrcpjp1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

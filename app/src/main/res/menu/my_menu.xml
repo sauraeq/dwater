@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+          android:title=" "
+          android:icon="@drawable/customer"/>
+    <item android:id="@+id/nav_class"
+          android:title=" "
+          android:icon="@drawable/task"/>
+    <item android:id="@+id/nav_perals"
+          android:title=" "
+          android:icon="@drawable/expense"/>
+    <item android:id="@+id/nav_qbank"
+        android:title=" "
+        android:icon="@drawable/store"/>
+    <item android:id="@+id/nav_exm"
+        android:title=" "
+        android:icon="@drawable/profile"/>
+
+
+
+</menu>

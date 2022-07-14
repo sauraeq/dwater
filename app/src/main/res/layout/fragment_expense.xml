@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".expense.activity.ExpenseFragment">
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:background="@color/main"
+        android:gravity="center"
+        android:text="Expenses"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp" />
+
+    <RelativeLayout
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/expense_profile"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_gravity="center"
+            app:civ_border_width="4dp"
+            app:civ_shadow_radius="@dimen/_8sdp" />
+
+
+
+
+        <TextView
+            android:id="@+id/expens_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/expense_profile"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/adddrsss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expens_tv2"
+            android:layout_toRightOf="@+id/expense_profile"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_9sdp" />
+
+        <ImageView
+
+            android:layout_centerInParent="true"
+            android:src="@drawable/plus"
+            android:id="@+id/add_exp"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_marginHorizontal="@dimen/_10sdp"
+       android:layout_marginBottom="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/_8sdp"
+    android:background="#D3EDEDE9">
+    <TextView
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Total Expenses"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_total_expense"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:textColor="@color/purple_200"/>
+</RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/errorrrrrrr"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/norecordfound"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

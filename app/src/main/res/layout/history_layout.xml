@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_6sdp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3EDEDE9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/wallet_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expens_tv2"
+                android:layout_toRightOf="@+id/expense_men"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Arabian Peninsula"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/wallet_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/expense_men"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Inzamum-ul-haq"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="Wallet Money"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/txt_wallet_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="ADE 110"
+                    android:textColor="@color/purple_200"
+                    android:textSize="@dimen/_10sdp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text=" Today | 12.00 PM"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

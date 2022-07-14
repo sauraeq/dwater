@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".customer.fragement.CustomerFragment">
+
+    <RelativeLayout
+        android:background="@drawable/wallet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp">
+
+
+    </RelativeLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabSelectedTextColor="@color/main"
+        app:tabTextColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_layout_home"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        >
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="@dimen/_5sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/grey_borde"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Add Expenses"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/close_dialog"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/close"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp">
+
+            </ImageView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_15sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/poppinsregular"
+                android:text="Type"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <LinearLayout
+                android:background="@drawable/black_border"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Spinner>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/poppinsregular"
+                android:text="Amount"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:textCursorDrawable="@null"
+                android:paddingLeft="@dimen/_5sdp"
+                android:id="@+id/ammount"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/txt_amount"
+                android:background="@drawable/black_border"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:layout_height="wrap_content">
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/poppinsregular"
+                android:text="Comment"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="wrap_content">
+
+            </TextView>
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_weight="7.5"
+               android:background="@drawable/black_border"
+               android:layout_height="70dp">
+               <EditText
+                   android:textCursorDrawable="@null"
+                   android:layout_marginLeft="@dimen/_5sdp"
+                   android:id="@+id/comment"
+                   android:textColor="@color/black"
+                   android:layout_width="match_parent"
+                   android:textSize="@dimen/_12sdp"
+                   android:cursorVisible="true"
+                   android:backgroundTint="@color/trans"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/poppinsregular"
+                android:layout_gravity="center"
+                android:text="Attachment"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <RelativeLayout
+                android:padding="@dimen/_3sdp"
+                android:background="@drawable/black_border"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/poppinsregular"
+                    android:text="Upload"
+                    android:textSize="@dimen/_11sdp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <ImageView
+                    android:id="@+id/iamgeupload"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end"
+                    android:src="@drawable/attachment"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp">
+
+                </ImageView>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/add_expensive"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/blueroundborder"
+            android:text="Add"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

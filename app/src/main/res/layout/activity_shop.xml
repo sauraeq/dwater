@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".store.StorekFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@color/main">
+
+        <TextView
+            android:id="@+id/hear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="Shop"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+        <ImageView
+            android:id="@+id/backreturnshop"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txt_count"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_above="@+id/gotoshoping"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/whitecircle"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp" />
+
+        <ImageView
+            android:id="@+id/gotoshoping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_15sdp"
+
+            android:src="@drawable/ic_baseline_shopping_cart_24" />
+        </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/shop_recycle"/>
+
+
+
+</LinearLayout>

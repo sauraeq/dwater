@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grey_borde"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Top-up"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/close"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp">
+
+            </ImageView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/customername"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Nidhi Goswami"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/customerphone"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppinsregular"
+            android:text="9876543210"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/poppinsregular"
+                android:text="Amount"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:textCursorDrawable="@null"
+                android:id="@+id/ammount"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:inputType="number"
+                android:layout_toRightOf="@+id/txt_amount"
+                android:background="@drawable/black_border"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:layout_height="wrap_content">
+
+            </EditText>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/add_money"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/blueroundborder"
+            android:text="Add Money"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

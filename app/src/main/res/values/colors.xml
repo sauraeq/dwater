@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#1b69a9</color>
+    <color name="maincolor">#1b69a9</color>
+    <color name="purple_500">#1b69a9</color>
+    <color name="purple_700">#1b69a9</color>
+    <color name="teal_200">#1b69a9</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main">#1b69a9</color>
+    <color name="gray">#F4F2F2</color>
+    <color name="colorGreyAddressBg">#f3f3f3</color>
+    <color name="colorGrey">#dddddd</color>
+    <color name="TextColor">#000000</color>
+    <color name="TextColor2">#999991</color>
+    <color name="colorPrimary">#1b69a9</color>
+    <color name="darkgray">#956E6E</color>
+    <color name="main_gray">#D3EDEDE9</color>
+    <color name="light_gray">#D3F8F8F7</color>
+    <color name="bgGray">#d8d8d8</color>
+    <color name="line_gray">#DAC3C3</color>
+    <color name="trans">#00000000 </color>
+    <color name="main_bg">#B4D4F1F9</color>
+    <color name="dialoggray">#f3f3f3</color>
+    <color name="bottel_color">#C2E5EA</color>
+    <color name="graycolorlight">#D3EDEDE9</color>
+    <color name="red">#D3EA0404</color>
+</resources>

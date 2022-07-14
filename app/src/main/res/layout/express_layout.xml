@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
+    android:background="@color/graycolorlight"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_Exprss_type"
+            android:layout_toLeftOf="@+id/expn_amount"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/_13sdp"
+            android:text="Petrol"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expn_amount"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/main"
+            android:padding="@dimen/_7sdp"
+            android:text="AED 110.00"
+            android:textAlignment="center"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/txt_expr_cmnt"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:textSize="@dimen/_11sdp"
+        android:text="Petrol"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_express_date"
+            android:layout_toLeftOf="@+id/exp_image"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/_11sdp"
+            android:text="24 June, 4:30pm"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <ImageView
+            android:src="@drawable/attachment"
+            android:id="@+id/exp_image"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/dialoggray">
+        <ImageView
+            android:id="@+id/product_iumage"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="@dimen/_150sdp"
+            android:src="@drawable/singlebottal"/>
+        <TextView
+            android:id="@+id/addtoard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_6sdp"
+            android:text="Add To Cart"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/blueroundborder"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/product_descrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"/>
+
+
+
+
+</LinearLayout>

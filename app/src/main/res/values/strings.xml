@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Alghadeer Driver</string>
+    <string name="txt_address_in_map" translatable="false">Address</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <style name="DialogCustomTheme" parent="android:Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@color/dialoggray</item>
+    </style>
+
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <string name="title_activity_receipt">ReceiptActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="qty">QTY</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="inclus_vat">Inclusive Vat</string>
+    <string name="inclus_vat_net">Net Total (Incl. Vat)</string>
+    <string name="Vat">Vat</string>
+
+    <string name="pdf_show_local_progress_title">Alert</string>
+    <string name="pdf_show_local_progress_content">Please wait</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="str_start_printer">Start Printing</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="default_notification_channel_id" translatable="false">Water_Dilivery_channel</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCLoLZlbJ7HC0YaLxFn1Rmw5G4LxMrE9aw
+    </string>
+</resources>
